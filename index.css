@@ -17,8 +17,10 @@
     gap: 20px;
     padding: 2cap;
 }
+
+
 .cont2 {
-    display: flex; 
+    display: flex;
     justify-content:space-between;
     gap: 20px;
     padding: 2cap;
