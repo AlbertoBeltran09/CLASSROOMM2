@@ -1,25 +1,66 @@
 *{
-    list-style: none;
-    margin: 0;
     padding: 0;
-    text-decoration: none;
+    margin: 0;
+}
+main{
+    background-color: rgb(177, 202, 233);
+    padding: 2pc;
+    font-family: sans-serif;
+}
+.carta {
+    height: 18pc;
+    width: 20pc;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    position: relative;
+}
+.parte-sub{
+    background-color: rgb(81, 81, 255); 
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    height: 4pc;
+    padding: 1pc;
+    color: white;
+}
+.contenedor{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 2pc;
 }
 
-.arriba {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    justify-content:space-between;
+.parte-sub h2{
+  margin-bottom: 1.5pc;
+  font-weight: 500;
 }
-.cont1 {
-    display: flex; 
-    justify-content:space-between;
-    gap: 20px;
-    padding: 2cap;
+.parte-sub p{
+  font-weight: 400;
 }
-.cont2 {
-    display: flex; 
-    justify-content:space-between;
-    gap: 20px;
-    padding: 2cap;
+.circulo{
+    height: 4pc;
+    width: 4pc;
+    background: url(https://live.staticflickr.com/8258/8683827826_7345599262_b.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    overflow: hidden;
+}
+
+.medio{
+    height: 7pc;
+    padding: 1pc;
+}
+.footer-carta{
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 0 1pc;
+  gap: 1pc;
+  height: 3pc;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
