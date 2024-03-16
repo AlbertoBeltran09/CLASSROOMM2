@@ -1,11 +1,19 @@
 *{
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 main{
     background-color: rgb(177, 202, 233);
-    padding: 2pc;
     font-family: sans-serif;
+}
+.lado-izq{
+    height: 80vh;
+    width: 10pc;
+    background-color: blue;
+}
+.contenedor-izq{
+    display: flex;
 }
 .carta {
     height: 18pc;
